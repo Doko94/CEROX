@@ -22,6 +22,7 @@ html {
     --haccent22:#000;
     --haccent_withOpacity: rgba(170, 85, 0, 1);
     --haccent2: #000;
+    --haccent23: #C9AE1B;
     --bgaccent: #1A1C27;
     --bgaccent_withOpacity: rgba(26, 28, 39,0.96);
 }
@@ -335,7 +336,7 @@ font-size: 1.2rem;
 text-transform: uppercase;
 font-weight: 700;
 margin-bottom: 10px;
-color: var(--haccent2);
+color: var(--haccent23);
 }
 #sec-2 article figure p{
 color: var(--txtaccent);
