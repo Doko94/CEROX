@@ -18,9 +18,9 @@ html {
     --textaccent3: #484848;
     --txtaccent4: #000;
     --txtaccent5: #E5E5E5;
-    --haccent: #000;
+    --haccent: #C9AE1B;
     --haccent_withOpacity: rgba(170, 85, 0, 1);
-    --haccent2: #C9AE1B;
+    --haccent2: #000;
     --bgaccent: #1A1C27;
     --bgaccent_withOpacity: rgba(26, 28, 39,0.96);
 }
