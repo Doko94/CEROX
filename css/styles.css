@@ -18,9 +18,9 @@ html {
     --textaccent3: #484848;
     --txtaccent4: #000;
     --txtaccent5: #E5E5E5;
-    --haccent: #de5f17;
+    --haccent: #C9AE1B;
     --haccent_withOpacity: rgba(170, 85, 0, 1);
-    --haccent2: #aa5500;
+    --haccent2: #C9AE1B;
     --bgaccent: #1A1C27;
     --bgaccent_withOpacity: rgba(26, 28, 39,0.96);
 }
@@ -571,7 +571,7 @@ text-shadow:1px 1px #73757E;
 #sec-5 .contactUs form input+p{
     width: 100%;
     margin: 0px auto;
-    color:#ff0000;
+    color:#C9AE1B;
     font-style: italic;
     font-size: 0.8rem;
     line-height: 1.1em;
@@ -580,7 +580,7 @@ text-shadow:1px 1px #73757E;
     bottom: 2px;
 }
 .invalid{
-    box-shadow: inset 0px 0px 10px #e67a7a;
+    box-shadow: inset 0px 0px 10px #C9AE1B;
 }
 /* SECTION SIX */
 #sec-6{
@@ -1063,7 +1063,7 @@ text-shadow:1px 1px #73757E;
 }
 
 .contact-form input[type="submit"] {
-    background-color: #de5f17;
+    background-color: #C9AE1B;
     color: #000;
     font-weight: bold;
     border: none;
@@ -1073,7 +1073,7 @@ text-shadow:1px 1px #73757E;
 }
 
 .contact-form input[type="submit"]:hover {
-    background-color: #aa5500;
+    background-color: #C9AE1B;
 }
 
 .invalid {
