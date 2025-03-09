@@ -19,6 +19,7 @@ html {
     --txtaccent4: #000;
     --txtaccent5: #E5E5E5;
     --haccent: #C9AE1B;
+    --haccent22:#000;
     --haccent_withOpacity: rgba(170, 85, 0, 1);
     --haccent2: #000;
     --bgaccent: #1A1C27;
@@ -249,7 +250,7 @@ html {
 }
 #sec-1 article h1{
     font-size: 1.85rem;
-    color: var(--haccent);
+    color: var(--haccent22);
     font-weight: 700;
     text-transform: uppercase;
 }
