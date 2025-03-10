@@ -1103,7 +1103,6 @@ text-shadow:1px 1px #73757E;
 .logo {
     width: 70px; /* Ajusta según el tamaño que prefieras */
     height: auto; /* Mantiene la proporción del logo */
-    width: auto;
     display: block;
 }
 
