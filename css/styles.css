@@ -1105,7 +1105,6 @@ text-shadow:1px 1px #73757E;
     height: auto; /* Mantiene la proporción del logo */
     width: auto;
     display: block;
-    object-fit: contain;
 }
 
 .logo:hover {
