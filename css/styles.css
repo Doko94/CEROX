@@ -142,7 +142,7 @@ html {
     margin-top: -5px;
 }
 #sec-0 header:last-of-type{
-    background-color: rgba(26, 28, 39, 0.3); /*var(--bgaccent)*/
+    background-color: rgba(26, 28, 39, 0.5); /*var(--bgaccent)*/
     backdrop-filter: blur(10px);
     position: relative;
 }
