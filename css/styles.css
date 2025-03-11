@@ -179,8 +179,8 @@ html {
     text-decoration: none;
     color: var(--txtaccent1);
     text-align: center;
-    padding: 10px;
-    transition: background-color 0.6s ease;
+    padding: 6px;
+    transition: background-color 0.4s ease;
     border-bottom: solid 1px var(--txtaccent1);
 }
 #sec-0 header nav a:hover{
