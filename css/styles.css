@@ -33,7 +33,7 @@ html {
 }
 /* SECTION ZERO = LANDING VIEW */
 #sec-0 {
-    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../Images/Motion_Graphics_Motion_Graphic.mp4) no-repeat center center/cover;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), no-repeat center center/cover;
     min-height: 85vh; /* Se asegura de que ocupe el 100% de la altura de la pantalla */
 }
 /* SECTION ZERO = LANDING VIEW */
