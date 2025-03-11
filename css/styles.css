@@ -142,7 +142,7 @@ html {
     margin-top: -5px;
 }
 #sec-0 header:last-of-type{
-    background-color: var(--bgaccent);
+    background-color: transparent;
     position: relative;
 }
 #sec-0 header:last-of-type .container{
