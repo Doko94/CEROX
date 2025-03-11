@@ -142,7 +142,7 @@ html {
     margin-top: -5px;
 }
 #sec-0 header:last-of-type{
-    background-color: transparent;
+    background-color: transparent; /*var(--bgaccent)*/
     position: relative;
 }
 #sec-0 header:last-of-type .container{
@@ -784,7 +784,7 @@ text-shadow:1px 1px #73757E;
         background-color: transparent;
     }
     #sec-0 input + nav {
-        background-color: var(--bgaccent_withOpacity);
+        background-color: transparent;
         position: absolute;
         top: 100%;
         right: 0%;
@@ -832,7 +832,7 @@ text-shadow:1px 1px #73757E;
         justify-content: flex-end;
         width: fit-content;
         position: static;
-        border-radius: none;
+        /* border-radius: none; */
         font-size: 0.8rem;
     }
     #sec-0 input:checked + nav {
