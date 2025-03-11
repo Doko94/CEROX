@@ -77,7 +77,7 @@ html {
     position: absolute;
     top: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0); /* Para que el menú sea visible */
+    background: transparent; /* Para que el menú sea visible */
     padding: 5px 0; /* Ajusta el espaciado para que se vea mejor */
     z-index: 3;
 }
