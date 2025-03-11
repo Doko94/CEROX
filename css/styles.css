@@ -33,9 +33,44 @@ html {
 }
 /* SECTION ZERO = LANDING VIEW */
 #sec-0 {
-    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), no-repeat center center/cover;
-    min-height: 85vh; /* Se asegura de que ocupe el 100% de la altura de la pantalla */
+    position: relative;
+    min-height: 85vh; /* Se asegura de que ocupe la pantalla */
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    text-align: center;
+    overflow: hidden;
 }
+
+#sec-0 video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+#sec-0::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)); 
+    z-index: 1;
+}
+
+#sec-0 article {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
 /* SECTION ZERO = LANDING VIEW */
 #sec-0 header.top {
     background-color: var(--haccent);
