@@ -177,7 +177,7 @@ html {
 #sec-0 header nav a {
     display: block;
     text-decoration: none;
-    color: transparent;
+    color: var(--txtaccent1);
     text-align: center;
     padding: 6px;
     transition: background-color 0.4s ease;
