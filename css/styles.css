@@ -320,11 +320,12 @@ html {
 }
 
 #sec-1 aside video {
-    width: 100%;
-    max-width: 400px; /* Ajusta según necesidad */
-    border-radius: 10px;
+    width: 90%;
+    max-width: 350px; /* Ajusta según necesidad */
+    border-radius: 0;
     object-fit: cover;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: none;
+    background: transparent;
 }
 
 #sec-1 article h1{
