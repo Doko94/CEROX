@@ -950,8 +950,8 @@ text-shadow:1px 1px #73757E;
     }
     #sec-1 article{
         padding: 0px;
-        text-align: center;
-        width:90%;
+        text-align: left;
+        width:51%;
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
@@ -1316,5 +1316,22 @@ text-shadow:1px 1px #73757E;
     margin-bottom: 20px; /* Ajusta el espaciado si es necesario */
 }
 
+@media (max-width: 768px) {
+    #sec-1 article {
+        text-align: center;
+        margin: 0 auto; /* Centra el texto */
+        width: 90%; /* Asegura que no quede muy ancho */
+    }
+
+    #sec-1 article h1,
+    #sec-1 article p {
+        text-align: center;
+    }
+
+    #sec-1 .btn {
+        display: inline-block;
+        margin: 15px auto; /* Centra el botón */
+    }
+}
 
 /* END OF SHEET */
