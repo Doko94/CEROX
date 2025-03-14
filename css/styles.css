@@ -320,8 +320,7 @@ html {
 }
 
 #sec-1 aside video {
-    width: 90%;
-    max-width: 350px; /* Ajusta según necesidad */
+    width: 100%;
     border-radius: 0;
     object-fit: cover;
     box-shadow: none;
@@ -1331,6 +1330,12 @@ text-shadow:1px 1px #73757E;
     #sec-1 .btn {
         display: inline-block;
         margin: 15px auto; /* Centra el botón */
+    }
+
+    #sec-1 aside video {
+        width: 90%;
+        max-width: 300px; /* Ajusta según necesidad */
+        height: auto;
     }
 }
 
