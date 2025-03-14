@@ -320,11 +320,12 @@ html {
 }
 
 #sec-1 aside video {
+    display: block;
     width: 100%;
     border-radius: 0;
     object-fit: cover;
     box-shadow: none;
-    /* background: transparent; */
+    background: transparent;
 }
 
 #sec-1 article h1{
@@ -1330,11 +1331,6 @@ text-shadow:1px 1px #73757E;
 #sec-1 .btn {
     display: inline-block;
     margin: 15px auto; /* Centra el botón */
-}
-
-    #sec-1 aside video {
-    width: 90%;
-    height: auto;
 }
 }
 
