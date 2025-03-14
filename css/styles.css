@@ -1334,4 +1334,13 @@ text-shadow:1px 1px #73757E;
 }
 }
 
+@media (max-width: 768px) {
+    #sec-1 aside video {
+        width: 100%;
+        max-width: 100%; /* Permite que el video se expanda */
+        height: auto;
+        display: block;
+    }
+}
+
 /* END OF SHEET */
