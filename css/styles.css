@@ -944,14 +944,14 @@ text-shadow:1px 1px #73757E;
         min-width: 35%;
     }
     #sec-1 .container{ 
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        display: column;
+        text-align: center;
+        align-items: center;
     }
     #sec-1 article{
         padding: 0px;
-        text-align: left;
-        width:51%;
+        text-align: center;
+        width:90%;
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
@@ -964,6 +964,15 @@ text-shadow:1px 1px #73757E;
         margin: 0px;
         text-align: right;
     }
+/* -------------------------------------------------*/
+
+    #sec-1 .btn {
+        display: inline-block;
+        margin: 15px auto; /* Centra el botón */
+    }
+
+/* ------------------------------------------------ */
+    
     #sec-2{
         padding: 4rem 0px 2.5rem;
     }
@@ -1314,31 +1323,6 @@ text-shadow:1px 1px #73757E;
         text-align: center;
         color: #000000; /* O el color que uses */
         margin-bottom: 20px; /* Ajusta el espaciado si es necesario */
-    }
-}
-@media (max-width: 768px) {
-    #sec-1 .container {
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-    }
-
-    #sec-1 article {
-        width: 90%; /* Asegura que ocupe todo el ancho disponible */
-        text-align: center;
-    }
-
-    #sec-1 article h1 {
-        font-size: 1.8rem; /* Ajuste del tamaño del título */
-    }
-
-    #sec-1 article p {
-        font-size: 1rem; /* Ajuste del tamaño del párrafo */
-    }
-
-    #sec-1 .btn {
-        display: inline-block;
-        margin: 15px auto; /* Centra el botón */
     }
 }
 
